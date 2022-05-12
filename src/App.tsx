@@ -1,10 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import Header from './layouts/Header';
-
+import Search from './pages/search/search'
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Search />
     </div>
   );
 }
