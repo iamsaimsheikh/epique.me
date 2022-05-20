@@ -1,10 +1,32 @@
 .sidebarContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color: #111222;
+    background-color: #222222;
     color: #fcfcfc;
     overflow: none;
     height: 91vh;
+    padding-top: 100px;
+}
+
+h4 {
+    font-weight: 100;
+}
+
+.textInput {
+    width: 20vw;
+}
+
+.searchResultContainer {
+    width: 20vw;
+    height: 50vh;
+}
+
+.searchResult {
+    width: 20vw;
+    height: 10vh;
+    background-color: #212529;
+    margin-top: 10px;
+    border-radius: 5px;
 }

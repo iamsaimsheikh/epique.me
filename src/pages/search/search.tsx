@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Header from '../../layouts/Header'
+import Header from '../../layouts/header/Header'
 import Sidebar from '../../components/sidebar'
 import Styles from './search.module.scss'
 
