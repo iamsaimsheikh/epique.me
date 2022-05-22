@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Header from '../../layouts/header/Header'
-import Sidebar from '../../components/sidebar'
+import Sidebar from '../../components/sidebar/sidebar'
 import Styles from './search.module.scss'
 
 const search = () => {
