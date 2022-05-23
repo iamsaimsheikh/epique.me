@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Navbar className={Styles.header} bg="dark" variant="dark">
       <Container>
-      <Navbar.Brand className={Styles.headerBrand} href="#home">Epique.me</Navbar.Brand>
+      <Navbar.Brand className={Styles.headerBrand} href="#home"></Navbar.Brand>
       <Nav className={Styles.navContainer}>
       <Nav.Link className={Styles.navLink} href="#home">Home</Nav.Link>
       <Nav.Link className={Styles.navLink} href="#link">Link</Nav.Link>
