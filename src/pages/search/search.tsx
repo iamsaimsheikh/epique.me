@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Header from '../../layouts/header/Header'
 import Sidebar from '../../components/sidebar/sidebar'
 import Styles from './search.module.scss'
+import UserInfo from '../../components/userInfo'
 
 const search = () => {
   return (
@@ -12,7 +13,7 @@ const search = () => {
                 <Col className={Styles.searchPageCol} lg={4}><Sidebar /></Col>
                 <Col className={Styles.searchPageCol} lg={8}>
                   <Row><Header /></Row>
-                  <Row></Row>
+                  <Row><UserInfo /></Row>
                 </Col>
             </Row>
         </Container>
