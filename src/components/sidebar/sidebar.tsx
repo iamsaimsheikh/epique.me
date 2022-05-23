@@ -58,6 +58,10 @@ const Sidebar = () => {
 
   return (
     <div className={Styles.sidebarContainer}>
+      <div className={Styles.headerBrand}>
+      <h3>Epique.me</h3>
+      <hr></hr>
+      </div>
       <h4>Who are you looking for?</h4>
       <input className={Styles.textInput} type='text' onChange={e => inputTextHandler(e.target.value)}/>
       <div className={Styles.searchResultContainer}>

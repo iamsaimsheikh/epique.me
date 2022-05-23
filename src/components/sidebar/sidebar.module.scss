@@ -5,13 +5,20 @@
     align-items: center;
     background-color: #222222;
     color: #fcfcfc;
-    height: 90vh;
-    padding-top: 100px;
+    height: 100vh;
+    padding-top: 50px;
 }
 
 h4 {
-    font-weight: 500;
+    font-weight: 100;
     color: #ffffff;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+hr {
+    opacity: 0.2;
+    background: -webkit-linear-gradient(-45deg,#DC1C13, #ff5252, #EA4C46, #F07470);
 }
 
 .textInput {
@@ -75,4 +82,16 @@ h4 {
 
 .noResult{
     opacity: 0.5;
+}
+
+.headerBrand {
+    font-weight: 200;
+}
+
+.headerBrand h3 {
+    font-size: 38px;
+    background: -webkit-linear-gradient(-45deg,#DC1C13, #ff5252, #EA4C46, #F07470);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
